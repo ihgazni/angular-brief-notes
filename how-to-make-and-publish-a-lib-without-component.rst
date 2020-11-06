@@ -98,7 +98,7 @@ PIPE
         })
         export class ShtskTranslatePipe implements PipeTransform {
         
-          constructor(private _translate_srv: TranslateService) {}
+          constructor(private _translate_srv: ShtskTranslateService) {}
           transform(value: any, cate?: any): any {
             return this._translate_srv.translate(cate, value);
           }
@@ -114,11 +114,13 @@ PUBLIC-API
     ::
         
         export * from './lib/shtsk-translate.module';
+        export * from './lib/shtsk-translate.pipe';
 
 
 PUBLISH
 -------
-
+- ng build shtsk-translate
+- npm publish
 
 USAGE
 -----
