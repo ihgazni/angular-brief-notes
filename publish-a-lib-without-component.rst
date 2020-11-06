@@ -35,7 +35,7 @@ MODULE
             imports: [
                 CommonModule
             ],
-            exports: [ShtskTranslatePipe]
+            exports: [ShtskTranslatePipe],
             providers:[ShtskTranslateService]
         })
         export class ShtskTranslateModule {
