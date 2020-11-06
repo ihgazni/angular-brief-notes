@@ -120,6 +120,7 @@ PUBLIC-API
 PUBLISH
 -------
 - ng build shtsk-translate
+- cd ../../dist/shtsk-translate/
 - npm publish
 
 USAGE
