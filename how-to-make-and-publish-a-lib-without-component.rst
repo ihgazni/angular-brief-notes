@@ -124,6 +124,20 @@ PUBLISH
 
 USAGE
 -----
+- app.module.ts
+    
+    ::
+        
+        import { TranslateModule } from "shtsk-translate";
+        @NgModule({
+          ...
+          imports: [
+            ...
+            TranslateModule.forRoot(),
+            ...
+          ],
+          ...
+        })
 
 
 
